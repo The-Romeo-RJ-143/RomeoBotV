@@ -10,3 +10,7 @@ async def _(event):
     await bot.send_file("me",pic)
            
     await event.delete()
+
+CmdHelp("uff").add_command(
+  "Uff", "<anime name>", "Searches for the given anime and sends the details.", "anime Darling in the franxx"
+).add()
