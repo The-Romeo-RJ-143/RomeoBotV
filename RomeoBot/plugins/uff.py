@@ -14,3 +14,4 @@ async def _(event):
 CmdHelp("uff").add_command(
   "Uff", "<anime name>", "Searches for the given anime and sends the details.", "anime Darling in the franxx"
 ).add()
+
