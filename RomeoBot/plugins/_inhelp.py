@@ -171,55 +171,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     buttons=alv_btn,
                     link_preview=False,
                     parse_mode="HTML",
-                )
-
-        elif event.query.user_id in auth and query == "pm_warn":
-            CSTM_PMP = gvarstat("CUSTOM_PMPERMIT") or "𝐊𝐲𝐚 𝐤𝐚𝐚𝐦 𝐇"
-            HELL_FIRST = "𝐇𝐞𝐥𝐥𝐨 \n   𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 {}'𝐬 𝐩𝐦\n\n 😎 𝐃𝐨𝐧𝐭'𝐧 𝐓𝐫𝐲 𝐓𝐨 𝐒𝐩𝐚𝐦 𝐇𝐞𝐫𝐞 😎".format(hell_mention, CSTM_PMP)
-            a = gvarstat("PMPERMIT_PIC")
-            pic_list = []
-            if a:
-                b = a.split(" ")
-                if len(b) >= 1:
-                    for c in b:
-                        pic_list.append(c)
-                PIC = random.choice(pic_list)
-            else:
-                PIC = "https://telegra.ph/file/a62b9c7d9848afde0569e.jpg"
-            if PIC and PIC.endswith((".jpg", ".png")):
-                result = builder.photo(
-                    file=PIC,
-                    text=HELL_FIRST,
-                    buttons=[
-                        [custom.Button.inline("📝 𝐑𝐞𝐪𝐮𝐞𝐬𝐭", data="req")],
-                        [custom.Button.inline("🚫 𝐁𝐥𝐨𝐜𝐤", data="heheboi")],
-                        [custom.Button.inline("❓ 𝐂𝐮𝐫𝐢𝐨𝐮𝐬", data="pmclick")],
-                    ],
-                    link_preview=False,
-                )
-            elif PIC:
-                result = builder.document(
-                    file=PIC,
-                    text=HELL_FIRST,
-                    title="𝐏𝐦 𝐏𝐞𝐫𝐦𝐢𝐭",
-                    buttons=[
-                        [custom.Button.inline("📝 𝐑𝐞𝐪𝐮𝐞𝐬𝐭", data="req")],
-                        [custom.Button.inline("🚫 𝐁𝐥𝐨𝐜𝐤", data="heheboi")],
-                        [custom.Button.inline("❓ 𝐂𝐮𝐫𝐢𝐨𝐮𝐬", data="pmclick")],
-                    ],
-                    link_preview=False,
-                )
-            else:
-                result = builder.article(
-                    text=HELL_FIRST,
-                    title="𝐏𝐦 𝐏𝐞𝐫𝐦𝐢𝐭",
-                    buttons=[
-                        [custom.Button.inline("📝 𝐑𝐞𝐪𝐮𝐞𝐬𝐭", data="req")],
-                        [custom.Button.inline("🚫 𝐁𝐥𝐨𝐜𝐤", data="heheboi")],
-                        [custom.Button.inline("❓ 𝐂𝐮𝐫𝐢𝐨𝐮𝐬", data="pmclick")],
-                    ],
-                    link_preview=False,
-                )
+                )   
                 
         elif event.query.user_id in auth and query == "repo":
             result = builder.article(
