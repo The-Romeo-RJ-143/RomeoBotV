@@ -1,32 +1,51 @@
+<h1 align="center">
+  <b> 𝐑𝐎𝐌𝐄𝐎𝐁𝐎𝐓 </b>
+</h1>
+
+<p align="center">
+  <img src="https://telegra.ph/file/a62b9c7d9848afde0569e.jpg" alt="Romeo-RJ">
+</p>
+
+<h6 align="center">
+  <b>🇮🇳 𝐑𝐎𝐌𝐄𝐎★𝐁𝐎𝐓 🇮🇳</b>
+</h6>
+
+<h3 align="center">
+  <b>𝐀 𝐒𝐦𝐨𝐨𝐭𝐡 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐭𝐞𝐥𝐞𝐭𝐡𝐨𝐧 𝐛𝐚𝐬𝐞𝐝.</b>
+</h3>
+
+
+### VPS DEPLOY 
+
 ☞︎︎︎☞︎︎︎☞︎︎︎☞︎︎︎☞︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎
 
-sudo apt-get update && sudo apt-get upgrade -y
+`sudo apt-get update && sudo apt-get upgrade -y`
 
-sudo apt-get install python3-pip ffmpeg -y
+`sudo apt-get install python3-pip ffmpeg -y`
 
-sudo pip3 install -U pip
+`sudo pip3 install -U pip`
 
-apt install -y curl screen
+`apt install -y curl screen`
 
-curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
+`curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 
-git clone https://github.com/Romeo-RJ/RomeoBotv
+`git clone https://github.com/Romeo-RJ/RomeoBotv`
 
-cd RomeoBotv
+`cd RomeoBotv`
 
-sudo apt install nano
+`sudo apt install nano`
 
-nano config.py
+`nano config.py`
 
-sudo apt install screen
+`sudo apt install screen`
 
-screen -S ROMEOBOT
+`screen -S ROMEOBOT`
 
-pip3 install -U -r requirements.txt
+`pip3 install -U -r requirements.txt`
 
-python3 -m RomeoBot
+`python3 -m RomeoBot`
 
-Ctrl + a + d
+`Ctrl + a + d`
 
 
   𝐊𝐘𝐀 𝐃𝐇𝐔𝐍𝐃𝐇 𝐑𝐇𝐄 𝐇𝐎 😜😜😜😜
